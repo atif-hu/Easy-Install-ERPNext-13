@@ -7,7 +7,7 @@ Step wise installation guide for ERPNext.
 #####                           - set the password for new user
 #####                           - enter the information asked
 ### 3) `sudo usermod -aG sudo your-username` // to add new user to the sudoers list
-### 4) Then logout of the system and log back in as the new user using `su - your-username`
+### 4) Then logout of the system and log back in as the new user using `su your-username`
 ### 5) `sudo apt update && sudo apt upgrade -y` // to update and upgrade the packages
 ### 6) Run Command `export LC_ALL=C.UTF-8`
 ### 7) `wget https://raw.githubusercontent.com/frappe/bench/develop/install.py` //to download file
