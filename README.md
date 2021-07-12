@@ -19,7 +19,7 @@ Step wise installation guide for ERPNext.
 - enter mysql password
 - enter administrator password
 - It will take approximately 7-10 minutes to get installed.
-- ERPNext is successfully installed after the message `Bench + Frappe + ERPNext has been successfully installed!`
+- ERPNext is successfully installed after you get the message `Bench + Frappe + ERPNext has been successfully installed!`
 #### 10) After successful installation go to the assigned IP Address in your browser and login through the `Administrator` Id and the admin password given at the time of installation.
 
 ___
