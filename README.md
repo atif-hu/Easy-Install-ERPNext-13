@@ -11,13 +11,16 @@ Step wise installation guide for ERPNext.
 
 #### 4) Then switch to new user using `su your-username`
 #### 5) `sudo apt update && sudo apt upgrade -y` // to update and upgrade the packages
-#### 6) Run Command `export LC_ALL=C.UTF-8`
-#### 7) Switch to the root user by `exit`
-#### 8) `wget https://raw.githubusercontent.com/frappe/bench/develop/install.py` //to download file
+
+#### 6) Switch to the root user by `exit`
+#### 7) `wget https://raw.githubusercontent.com/frappe/bench/develop/install.py` //to download file
+#### 8) Run Command `export LC_ALL=C.UTF-8` in shell
 #### 9) `python3 install.py --verbose --production --user your-username --frappe-branch version-13 --erpnext-branch version-13` // to install file
 - enter mysql password
 - enter administrator password
-#### 10) After successful installation go to the assigned IP Address and login through the `Administrator` Id and the admin password given at the time of installation.
+- It will take approximately 7-10 minutes to get installed.
+- ERPNext is successfully installed after the message `Bench + Frappe + ERPNext has been successfully installed!`
+#### 10) After successful installation go to the assigned IP Address in your browser and login through the `Administrator` Id and the admin password given at the time of installation.
 
 ___
 
