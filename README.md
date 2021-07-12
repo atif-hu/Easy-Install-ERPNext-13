@@ -12,6 +12,7 @@ Step wise installation guide for ERPNext.
 #### 4) Then switch to new user using `su your-username`
 #### 5) `sudo apt update && sudo apt upgrade -y` // to update and upgrade the packages
 #### 6) Run Command `export LC_ALL=C.UTF-8`
+#### 7) Switch to the root user by `exit`
 #### 7) `wget https://raw.githubusercontent.com/frappe/bench/develop/install.py` //to download file
 #### 8) `python3 install.py --verbose --production --user your-username --frappe-branch version-13 --erpnext-branch version-13` // to install file
 - enter mysql password
